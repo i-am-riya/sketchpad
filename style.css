@@ -26,3 +26,10 @@ button {
     box-sizing: border-box;
     transition: background-color 0.3s;
 }
+
+@media (min-width: 348px) and (max-width: 980px) {
+    #container{
+        width: 340px;
+        height: 340px;
+    }
+}
